@@ -1,0 +1,60 @@
+.hero
+    min-height: 750px
+    background-image: url(../img/hero-bg.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom
+    &-row
+        justify-content: space-between
+    &-column-right
+        width: 48%
+    &-column-left
+        width: 48%
+    &-img
+        padding-top: 28px
+        padding-bottom: 20px
+    &-title
+        padding-top: 72px
+        font-weight: 600
+        font-size: 28px
+        line-height: 150%
+        color: #10242B
+    &-important
+        color: $blue
+        font-size: 48px
+        line-height: 150%
+        font-weight: 700
+    &-info
+        font-weight: 500
+        font-size: 20px
+        line-height: 150%
+        color: $grey
+        max-width: 570px
+    &-list
+        padding-top: 29px
+        color: $grey
+        font-weight: 600
+        font-size: 20px
+        line-height: 220%
+        margin-left: 23px
+        li:before 
+            content: ""
+            border-color: transparent $blue
+            border-style: solid
+            border-width: 0.35em 0 0.35em 0.45em
+            display: block
+            height: 0
+            width: 0
+            left: -1em
+            top: 29px
+            position: relative
+    &-buttons-wrapper
+        margin-top: 48px
+        display: flex
+        gap: 12px
+        align-items: center
+
+
+
+
+
